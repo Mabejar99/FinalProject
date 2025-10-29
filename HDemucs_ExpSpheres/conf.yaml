@@ -1,0 +1,52 @@
+separator_conf:
+  input_dim: 8192
+  n_srcs: 12
+  n_fft: 8192
+  stride: 4096
+  window: "hann"
+  n_imics: 12
+  n_layers: 3
+  lstm_hidden_units: 128
+  attn_n_head: 1
+  attn_approx_qk_dim: 512
+  emb_dim: 16
+  emb_ks: 8
+  emb_hs: 1
+  activation: "prelu"
+  eps: 1.0e-5
+
+hdemucs_conf:
+  channels: 48
+  cac: false
+  samplerate: 48000
+
+optimizer_conf:
+  lr: 5.0e-5
+  eps: 1.0e-07
+  weight_decay: 1.0e-5
+
+dataset:
+  root_dir: /mnt/home/mdbm0009/DataBase_Demucs_Reorganizada
+  val_root_dir: /mnt/home/mdbm0009/DataBase_Demucs_Reorganizada
+  train_dir: train
+  test_dirs:
+    - test/same_acoustics_and_layout
+    - test/same_acoustics_diff_layout
+    - test/diff_acoustics_same_layout
+    - test/diff_acoustics_and_layout
+  dataset_name: Spheres
+  chunk_duration: 8
+  stride_duration: 4
+  silence_threshold: -25
+  batch_size: 1
+  seed: 115
+  train_valid_split_sizes:
+    - .8
+    - .2
+  num_workers: 7
+
+train:
+  loss_function: l1   # l1, auraloss, perceptual, sdr
+  permute_sources: true
+  num_epochs: 200
+  exp_name: Spheres_HDEMUCS

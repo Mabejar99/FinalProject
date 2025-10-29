@@ -1,0 +1,7 @@
+lightning_logs/
+checkpoints/
+logs/
+checkpoints/
+logs/
+lightning_logs/
+demucs/

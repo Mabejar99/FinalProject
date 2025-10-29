@@ -1,0 +1,10 @@
+DataBase_Demucs_Reorganizada
+demucslightning_logs/
+lightning_logs/
+HDemucs_ExpSpheres/checkpoints/
+HDemucs_ExpSpheres/logs/
+HDemucs_ExpSpheres/lightning_logs/
+HDemucs_Training/checkpoints/
+HDemucs_Training/logs/
+HDemucs_Training/lightning_logs/
+HDemucs_Training/demucs/

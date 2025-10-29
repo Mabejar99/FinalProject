@@ -1,0 +1,5 @@
+output_directory: E:\DataBase_Demucs\outputs\combinacion63
+samplerate: 44100
+seed: 115
+source_directory: E:\DataBase_Demucs\inputs\combinacion63
+source_files_suffix: .flac

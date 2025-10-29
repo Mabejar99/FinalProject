@@ -1,0 +1,14 @@
+{
+    "vocals": 0,
+    "Vocals2": 1,
+    "drums": 2,
+    "Bass Drum": 3,
+    "bass": 4,
+    "Bass2": 5,
+    "Snare": 6,
+    "other": 7,
+    "Crowd": 8,
+    "Cymbal": 9,
+    "Additional Instruments": 10,
+    "Guitar": 11
+}

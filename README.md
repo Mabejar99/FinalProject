@@ -6,4 +6,4 @@ The folder REAPER includes the script that enables the interface between Demucs 
 
 The .gitignore file specifies the files that are excluded from version control due to their large size, such as training logs and checkpoints.
 
-Finally, the database used and the trained checkpoint are shared through the following Google Drive link:
+Finally, the trained checkpoint is shared through the following Google Drive link:https://drive.google.com/drive/folders/11-05zpbdHTlcNMdKyD7yXXNTBfliw5Qm?usp=drive_link
